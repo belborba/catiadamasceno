@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #000000;
+  --background: var(--color-secondary);
   --foreground: #ffffff;
   --font-nunito-sans: "Nunito Sans", sans-serif;
 }

@@ -26,7 +26,7 @@ export const ClassContent = () => {
   };
 
   return (
-    <section className="relative flex flex-col items-center px-4 sm:px-0 bg-white sm:bg-none border-b-8 border-primary">
+    <section className="relative flex flex-col items-center px-4 sm:px-0 bg-white sm:bg-none">
       <div>
         <Image
           src={sectionDesktop}

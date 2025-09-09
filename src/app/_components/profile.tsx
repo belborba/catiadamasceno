@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const Profile = () => {
   return (
-    <section className="bg-secondary sm:mt-[-90px] pt-8 px-4 sm:p-0 sm:flex sm:justify-center sm:items-center text-[18px]">
+    <section className="sm:mt-[-90px] pt-8 px-4 sm:p-0 sm:flex sm:justify-center sm:items-center text-[18px]">
       <div className="sm:flex w-full sm:max-w-6xl items-center">
         <div className="hidden sm:block">
           <Image
