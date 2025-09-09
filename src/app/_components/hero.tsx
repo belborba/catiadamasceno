@@ -19,6 +19,7 @@ export const Hero = () => {
         fill
         placeholder="blur"
         className="block sm:hidden"
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         style={{ objectFit: "cover", objectPosition: "top" }}
       />
 
@@ -28,6 +29,7 @@ export const Hero = () => {
         fill
         placeholder="blur"
         className="hidden sm:block"
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         style={{ objectFit: "cover", objectPosition: "center" }}
       />
       <div className="absolute w-full sm:mx-60 sm:w-[486px] flex flex-col gap-6 p-6 sm:p-0 items-center sm:items-start text-center sm:text-left">

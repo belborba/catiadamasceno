@@ -27,13 +27,14 @@ export const ClassContent = () => {
 
   return (
     <section className="relative flex flex-col items-center px-4 sm:px-0 bg-white sm:bg-none">
-      <div>
+      <div className="w-full">
         <Image
           src={sectionDesktop}
           alt="Fundo Desktop"
           fill
           placeholder="blur"
           className="hidden sm:block absolute z-0"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           style={{ objectFit: "cover", objectPosition: "center" }}
         />
       </div>
@@ -81,17 +82,18 @@ export const ClassContent = () => {
                     fill
                     placeholder="blur"
                     className="rounded-b-2xl"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     style={{ objectFit: "cover", objectPosition: "center" }}
                   />
                 </div>
               </div>
             ))}
           </div>
-          <div className="mt-4 flex h-5 max-w-7xl gap-8 justify-center sm:justify-between">
-            <button className="cursor-pointer" onClick={scrollNext}>
+          <div className="my-4 flex h-5 max-w-7xl gap-8 justify-center sm:justify-between">
+            <button className="cursor-pointer" onClick={scrollPrev}>
               <Image src={arrowLeftIcon} alt="Arrow Icon" />
             </button>
-            <button className="cursor-pointer" onClick={scrollPrev}>
+            <button className="cursor-pointer" onClick={scrollNext}>
               <Image src={arrowRightIcon} alt="Arrow Icon" />
             </button>
           </div>

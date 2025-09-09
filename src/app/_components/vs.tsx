@@ -16,6 +16,7 @@ export const Vs = () => {
           fill
           placeholder="blur"
           className="block sm:hidden"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           style={{ objectFit: "cover", objectPosition: "top" }}
         />
         <Image
@@ -24,6 +25,7 @@ export const Vs = () => {
           fill
           placeholder="blur"
           className="hidden sm:block"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           style={{ objectFit: "cover", objectPosition: "top" }}
         />
       </div>
@@ -37,8 +39,8 @@ export const Vs = () => {
           PPK SENDENTÁRIA
         </h4>
         <div className="flex flex-wrap justify-center gap-6">
-          {sedentariaList.map((item) => (
-            <ul>
+          <ul className="flex flex-wrap justify-center gap-6">
+            {sedentariaList.map((item) => (
               <li
                 className="bg-white w-[350px] flex items-center justify-start rounded-2xl text-black"
                 key={item.id}
@@ -51,6 +53,7 @@ export const Vs = () => {
                       placeholder="blur"
                       fill
                       className="rounded-l-2xl"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       style={{
                         objectFit: "cover",
                         objectPosition: "center",
@@ -62,15 +65,15 @@ export const Vs = () => {
                   <p className="text-[18px]">{item.description}</p>
                 </div>
               </li>
-            </ul>
-          ))}
+            ))}
+          </ul>
         </div>
         <h4 className="mt-5 px-4 py-2 rounded-full border-2 border-primary text-white">
           PPK ATLETA
         </h4>
         <div className="flex flex-wrap justify-center gap-6">
-          {atletaList.map((item) => (
-            <ul>
+          <ul className="flex flex-wrap justify-center gap-6">
+            {atletaList.map((item) => (
               <li
                 className="bg-primary w-[350px] flex items-center justify-start rounded-2xl text-black"
                 key={item.id}
@@ -83,6 +86,7 @@ export const Vs = () => {
                       placeholder="blur"
                       fill
                       className="rounded-l-2xl"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       style={{
                         objectFit: "cover",
                         objectPosition: "center",
@@ -94,8 +98,8 @@ export const Vs = () => {
                   <p className="text-[18px]">{item.description}</p>
                 </div>
               </li>
-            </ul>
-          ))}
+            ))}
+          </ul>
         </div>
         <Image
           src={arrowDownCircle}
