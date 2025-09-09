@@ -26,7 +26,7 @@ export const ClassContent = () => {
   };
 
   return (
-    <section className="relative flex flex-col items-center px-4 sm:px-0 bg-white sm:bg-none">
+    <section className="relative flex flex-col items-center px-4 sm:px-0 bg-white sm:bg-none border-b-8 border-primary">
       <div>
         <Image
           src={sectionDesktop}
@@ -38,8 +38,10 @@ export const ClassContent = () => {
         />
       </div>
       <div className="w-full sm:max-w-6xl flex flex-col gap-4">
-        <div className="bg-blue-700 border-primary border-2 mt-[-30px] mb-4 rounded-2xl max-w-6xl p-8 text-center z-0 space-y-3">
-          <h2>O que você vai aprender nas Pompolimpíadas</h2>
+        <div className="bg-secondary border-primary border-2 mt-[-30px] mb-4 rounded-2xl max-w-6xl p-8 text-center z-0 space-y-3">
+          <h2 className="text-primary">
+            O que você vai aprender nas Pompolimpíadas
+          </h2>
           <p>
             Participe da superaula gratuita de Ginástica Íntima no dia 13 de
             agosto, às 20h, e tenha acesso a todo o conteúdo do curso. Aprenda a
@@ -58,7 +60,7 @@ export const ClassContent = () => {
                 className="embla__slide flex-shrink-0
                    w-full sm:w-1/2 lg:w-1/4
                    flex flex-col space-y-4 justify-between items-center
-                   bg-blue-700 rounded-2xl border border-primary"
+                   bg-secondary rounded-2xl border border-primary"
               >
                 <Image
                   src={item.src}
