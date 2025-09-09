@@ -6,7 +6,7 @@ import arrowDownCircle from "../../../public/icons/arrow-down-circle.png";
 import { sedentariaList } from "../data/sectionfour";
 import { atletaList } from "../data/sectionfour";
 
-export const Vs = () => {
+export const SectionFour = () => {
   return (
     <section className="relative flex flex-col justify-center gap-4 sm:gap-8 items-center border-y-8 border-primary py-8 px-4 sm:pt-20 sm:pb-20">
       <div className="absolute inset-0 -z-10">
@@ -30,11 +30,11 @@ export const Vs = () => {
         />
       </div>
       <div className="w-full sm:max-w-6xl flex flex-col items-center gap-4 sm:gap-16">
-        <h3 className="text-center text-[20px] text-bold">
+        <h2 className="text-center text-bold">
           Existem dois tipos de ppka, aquelas que dominam a modalidade do aperta
           e solta e as que não praticam nenhum exercício, ou seja, as
           sedentárias.
-        </h3>
+        </h2>
         <h4 className="mt-5 px-4 py-2 rounded-full border-2 border-primary bg-neutral-100 text-secondary ">
           PPK SENDENTÁRIA
         </h4>

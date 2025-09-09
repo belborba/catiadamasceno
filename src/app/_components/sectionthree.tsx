@@ -2,7 +2,7 @@ import { useState } from "react";
 import sectionMobile from "../../../public/bg-mobile-section-3.png";
 import Image from "next/image";
 
-export const Cta = () => {
+export const SectionThree = () => {
   const [email, setEmail] = useState("");
 
   const handleSubmit = (e: React.FormEvent) => {

@@ -1,11 +1,17 @@
 import type { Metadata } from "next";
-import { Nunito_Sans } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const nunitoSans = Nunito_Sans({
-  variable: "--font-nunito-sans",
-  subsets: ["latin"],
-  weight: ["400"],
+const nunitoFont = localFont({
+  src: "../fonts/nunitosans.woff2",
+  variable: "--font-nunito",
+  fallback: ["sans-serif"],
+});
+
+const parisFont = localFont({
+  src: "../fonts/paris2024.woff2",
+  variable: "--font-title",
+  fallback: ["sans-serif"],
 });
 
 export const metadata: Metadata = {
@@ -24,7 +30,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={`${nunitoSans.variable} antialiased`}>{children}</body>
+      <body
+        className={`${nunitoFont.variable} ${parisFont.variable} antialiased`}
+      >
+        {children}
+      </body>
     </html>
   );
 }

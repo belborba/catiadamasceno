@@ -1,19 +1,19 @@
 "use client";
 
-import { ClassContent } from "./_components/classes";
-import { Cta } from "./_components/cta";
+import { SectionTwo } from "./_components/sectiontwo";
+import { SectionThree } from "./_components/sectionthree";
 import { Footer } from "./_components/footer";
 import { Hero } from "./_components/hero";
 import { Profile } from "./_components/profile";
-import { Vs } from "./_components/vs";
+import { SectionFour } from "./_components/sectionfour";
 
 export default function Home() {
   return (
     <main>
       <Hero />
-      <ClassContent />
-      <Cta />
-      <Vs />
+      <SectionTwo />
+      <SectionThree />
+      <SectionFour />
       <Profile />
       <Footer />
     </main>

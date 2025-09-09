@@ -1,11 +1,11 @@
-interface classesProps {
+interface sectionProps {
   id: number;
   src: string;
   title: string;
   description: string;
 }
 
-export const classesList: classesProps[] = [
+export const classesList: sectionProps[] = [
   {
     id: 1,
     src: "/images/aulas/saltonavara.png",

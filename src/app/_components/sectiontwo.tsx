@@ -1,13 +1,13 @@
 import Image from "next/image";
 import sectionDesktop from "../../../public/bg-desktop-section-2.png";
-import { classesList } from "../data/classes";
+import { classesList } from "../data/sectiontwo";
 import waves from "../../../public/waves.png";
 import arrowIcon from "../../../public/icons/arrow-icon.svg";
 import arrowLeftIcon from "../../../public/icons/arrow-l-icon.svg";
 import arrowRightIcon from "../../../public/icons/arrow-r-icon.svg";
 import useEmblaCarousel from "embla-carousel-react";
 
-export const ClassContent = () => {
+export const SectionTwo = () => {
   const [emblaRef, emblaApi] = useEmblaCarousel({
     loop: false,
     align: "start",

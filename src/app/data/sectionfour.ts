@@ -1,9 +1,9 @@
-interface vsProps {
+interface sectionProps {
   id: number;
   description: string;
 }
 
-export const sedentariaList: vsProps[] = [
+export const sedentariaList: sectionProps[] = [
   {
     id: 1,
     description: "Não sente vontade de ter relação íntima",
@@ -30,7 +30,7 @@ export const sedentariaList: vsProps[] = [
   },
 ];
 
-export const atletaList: vsProps[] = [
+export const atletaList: sectionProps[] = [
   {
     id: 1,
     description: "É muito mais molhadinha",
