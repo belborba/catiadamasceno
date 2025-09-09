@@ -1,6 +1,7 @@
 "use client";
 
 import { ClassContent } from "./_components/classcontent";
+import { Footer } from "./_components/footer";
 import { Hero } from "./_components/hero";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
     <main>
       <Hero />
       <ClassContent />
+      <Footer />
     </main>
   );
 }
