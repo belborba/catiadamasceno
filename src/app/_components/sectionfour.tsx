@@ -1,5 +1,5 @@
 import Image from "next/image";
-import sectionDesktop from "../../../public/images/backgrounds/bg-desktop-section-4.jpg";
+import sectionDesktop from "../../../public/images/backgrounds/bg-desktop-section-4-min.jpg";
 import sectionMobile from "../../../public/images/backgrounds/mobile-section-4.jpg";
 import waves from "../../../public/images/backgrounds/img-waves.jpg";
 import ArrowDownCircle from "../../../public/icons/arrow-down.svg";
