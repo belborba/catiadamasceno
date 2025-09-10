@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Image from "next/image";
-import heroDesktop from "../../../public/images/backgrounds/bg-desktop-hero.jpg";
+import heroDesktop from "../../../public/images/backgrounds/bg-desktop-hero-min.jpg";
 import heroMobile from "../../../public/images/backgrounds/bg-mobile-hero.jpg";
 import Logo from "../../../public/logo-pompolimpiadas.svg";
 import ButtonIcon from "../../../public/icons/button-icon.svg";
@@ -34,7 +34,7 @@ export const Hero = () => {
           fill
           placeholder="blur"
           className="hidden md:block"
-          quality={100}
+          quality={90}
           sizes="(max-width: 640px) 100vw,(max-width: 768px) 80vw,(max-width: 1024px) 60vw,(max-width: 1280px) 50vw, 1280px"
           style={{ objectFit: "cover", objectPosition: "top" }}
           priority
