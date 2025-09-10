@@ -23,6 +23,7 @@ export const SectionThree = () => {
           quality={78}
           sizes="100vw"
           style={{ objectFit: "cover", objectPosition: "top" }}
+          loading="lazy"
         />
       </div>
       <div className="flex flex-col gap-6">

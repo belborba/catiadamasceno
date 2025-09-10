@@ -19,6 +19,7 @@ export const SectionFour = () => {
           quality={80}
           sizes="100vw"
           style={{ objectFit: "cover", objectPosition: "top" }}
+          loading="lazy"
         />
         <Image
           src={sectionDesktop}
@@ -29,6 +30,7 @@ export const SectionFour = () => {
           quality={80}
           sizes="(max-width: 640px) 100vw,(max-width: 768px) 80vw,(max-width: 1024px) 60vw,(max-width: 1280px) 50vw, 1280px"
           style={{ objectFit: "cover", objectPosition: "center" }}
+          loading="lazy"
         />
       </div>
       <div className="w-full md:max-w-6xl flex flex-col items-center gap-6">
@@ -57,6 +59,7 @@ export const SectionFour = () => {
                       fill
                       className="rounded-l-2xl"
                       sizes="100vh"
+                      loading="lazy"
                       style={{
                         objectFit: "cover",
                         objectPosition: "center",

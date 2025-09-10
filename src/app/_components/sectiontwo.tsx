@@ -38,6 +38,7 @@ export const SectionTwo = () => {
           quality={80}
           sizes="(max-width: 640px) 100vw,(max-width: 768px) 80vw,(max-width: 1024px) 60vw,(max-width: 1280px) 50vw, 1280px"
           style={{ objectFit: "fill", objectPosition: "center" }}
+          loading="lazy"
         />
       </div>
       <div className="w-full md:max-w-6xl flex flex-col gap-4">
@@ -50,6 +51,7 @@ export const SectionTwo = () => {
             placeholder="blur"
             quality={80}
             className="-z-10 absolute inset-0 rounded-2xl"
+            loading="lazy"
           />
 
           <h2 className="text-primary relative z-10">
@@ -85,6 +87,7 @@ export const SectionTwo = () => {
                   quality={80}
                   sizes="100vw"
                   className="rounded-2xl border border-primary"
+                  loading="lazy"
                 />
                 <ArrowIcon className="text-[100px] h-[10px]" />
                 <div className="px-4 space-y-2 text-center">
@@ -101,6 +104,7 @@ export const SectionTwo = () => {
                     quality={80}
                     sizes="100vw"
                     style={{ objectFit: "cover", objectPosition: "center" }}
+                    loading="lazy"
                   />
                 </div>
               </div>

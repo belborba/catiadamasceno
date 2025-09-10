@@ -43,6 +43,7 @@ export const Profile = () => {
             quality={90}
             sizes="(max-width: 640px) 100vw, 512px"
             className="md:mt-[-80px]"
+            loading="lazy"
           />
         </div>
       </div>

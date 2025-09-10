@@ -22,7 +22,7 @@ export const Hero = () => {
           fill
           placeholder="blur"
           className="block md:hidden"
-          quality={100}
+          quality={90}
           sizes="100vw"
           style={{ objectFit: "cover", objectPosition: "top" }}
           priority
@@ -34,7 +34,7 @@ export const Hero = () => {
           fill
           placeholder="blur"
           className="hidden md:block"
-          quality={90}
+          quality={80}
           sizes="(max-width: 640px) 100vw,(max-width: 768px) 80vw,(max-width: 1024px) 60vw,(max-width: 1280px) 50vw, 1280px"
           style={{ objectFit: "cover", objectPosition: "top" }}
           priority
