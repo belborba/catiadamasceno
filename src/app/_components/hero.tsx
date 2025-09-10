@@ -42,7 +42,7 @@ export const Hero = () => {
       <div className="w-full md:max-w-6xl">
         <div className="w-full md:w-[500px] flex flex-col gap-4 md:gap-6 p-6 md:p-0 items-center md:items-start text-center md:text-left">
           <Logo className="text-[250px] h-20 text-white" />
-          <h1 className="text-3xl block md:hidden">
+          <h1 className="text-3xl block md:hidden text-primary">
             Meu Curso de Ginástica Íntima gratuito dia 13/08
           </h1>
           <p className="md:text-2xl text-white">
