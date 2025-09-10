@@ -18,8 +18,24 @@ export const metadata: Metadata = {
   title: "Pompolimpíadas - Cátia Damasceno",
   description:
     "Superaula online e gratuita com Cátia Damasceno: aprenda exercícios de Ginástica Íntima e fortaleça sua intimidade.",
+
   icons: {
     icon: "/favicon.svg",
+  },
+  openGraph: {
+    title: "Pompolimpíadas - Cátia Damasceno",
+    description:
+      "Superaula online e gratuita com Cátia Damasceno: aprenda exercícios de Ginástica Íntima e fortaleça sua intimidade.",
+    url: "https://",
+    type: "website",
+    images: [
+      {
+        url: "/images/backgrounds/bg-desktop-hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Pompolimpíadas - Superaula de Ginástica Íntima",
+      },
+    ],
   },
 };
 

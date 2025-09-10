@@ -8,29 +8,29 @@ interface sectionProps {
 export const classesList: sectionProps[] = [
   {
     id: 1,
-    src: "/images/aulas/saltonavara.png",
-    title: "SALTO NA VARA",
+    src: "/images/aulas/img-catia-damasceno-1.jpg",
+    title: "Salto na vara",
     description:
       "As manobras pompoarísticas mais avançadas – você vai ter uma ppk, forte, resistente, saudável e com truques de tirar o fôlego, como: chupitar, dedilhar, enlaçar, sugar, e vários outros segredos.",
   },
   {
     id: 2,
-    src: "/images/aulas/aparte.png",
-    title: "APARTÊ",
+    src: "/images/aulas/img-catia-damasceno-2.jpg",
+    title: "Apartê",
     description:
       "Os melhores golpes para nocautear de uma vez por todas os problemas que atrapalham a sua saúde íntima – como a incontinência, cólicas e os incômodos da menopausa, por exemplo",
   },
   {
     id: 3,
-    src: "/images/aulas/ginasticanhanhastica.png",
-    title: "GINÁSTICA NHANHAÍSTICA",
+    src: "/images/aulas/img-catia-damasceno-3.jpg",
+    title: "Ginástica nhanhaística",
     description:
       "O passo a passo para desenvolver habilidades que farão você liderar no quesito rebolada sensual e manuseio de bolas.",
   },
   {
     id: 4,
-    src: "/images/aulas/siririclismo.png",
-    title: "SIRIRICLISMO",
+    src: "/images/aulas/img-catia-damasceno-4.jpg",
+    title: "Siririclismo",
     description:
       "Exercícios para aumentar a sua consciência corporal e te ajudar a entender quais são os pontos que mais te dão prazer para que você se torne uma mulher altamente orgástica",
   },

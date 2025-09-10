@@ -1,22 +1,17 @@
-import arrowIcon from "../../../public/icons/arrow-icon.svg";
-import profileImage from "../../../public/images/catia-damasceno.png";
+import ArrowIcon from "../../../public/icons/arrow-icon.svg";
+import profileImage from "../../../public/images/img-catia-damasceno-bio.webp";
 import Image from "next/image";
 
 export const Profile = () => {
   return (
-    <section className="sm:mt-[-90px] pt-8 px-4 sm:p-0 sm:flex sm:justify-center sm:items-center text-[18px]">
-      <div className="sm:flex w-full sm:max-w-6xl items-center">
-        <div className="hidden sm:block">
-          <Image
-            src={arrowIcon}
-            alt="Arrow Icon"
-            width={170}
-            height={0}
-            className="rotate-270"
-          />
+    <section className="pt-8 px-4 md:py-0 md:flex md:justify-center md:items-center text-[18px]">
+      <div className="md:flex w-full md:max-w-6xl items-center">
+        <div className="hidden md:block">
+          <ArrowIcon className="text-[190px] rotate-270" />
         </div>
-        <div className="w-full sm:w-2/5 space-y-4">
-          <h2 className="text-primary text-center sm:text-left">
+
+        <div className="w-full md:w-2/5 space-y-4">
+          <h2 className="text-primary text-center md:text-left">
             Quem vai te ensinar
           </h2>
           <p>
@@ -39,12 +34,15 @@ export const Profile = () => {
             Show'' na CNN, “Se Joga”, também da Rede Globo, e vários outros.
           </p>
         </div>
-        <div className="mt-2 sm:z-0">
+        <div className="mt-2 md:z-0">
           <Image
             src={profileImage}
             alt="Foto da Cátia Damasceno"
-            width={545}
-            height={852}
+            width={512}
+            height={800}
+            quality={90}
+            sizes="(max-width: 640px) 100vw, 512px"
+            className="md:mt-[-80px]"
           />
         </div>
       </div>
