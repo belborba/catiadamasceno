@@ -19,10 +19,9 @@ export const SectionThree = () => {
           alt="Fundo Mobile"
           fill
           placeholder="blur"
-          className="block md:hidden"
+          className="block md:hidden object-cover object-top"
           quality={78}
           sizes="100vw"
-          style={{ objectFit: "cover", objectPosition: "top" }}
           loading="lazy"
         />
       </div>

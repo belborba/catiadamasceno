@@ -34,10 +34,9 @@ export const SectionTwo = () => {
           alt="Fundo Desktop"
           fill
           placeholder="blur"
-          className="hidden md:block absolute z-0"
+          className="hidden md:block absolute z-0 object-fill object-top"
           quality={80}
           sizes="(max-width: 640px) 100vw,(max-width: 768px) 80vw,(max-width: 1024px) 60vw,(max-width: 1280px) 50vw, 1280px"
-          style={{ objectFit: "fill", objectPosition: "center" }}
           loading="lazy"
         />
       </div>
@@ -47,10 +46,9 @@ export const SectionTwo = () => {
             src={bgbluebox}
             alt="Fundo"
             fill
-            style={{ objectFit: "cover", objectPosition: "center" }}
             placeholder="blur"
             quality={80}
-            className="-z-10 absolute inset-0 rounded-2xl"
+            className="-z-10 absolute inset-0 rounded-2xl object-cover object-top"
             loading="lazy"
           />
 
@@ -100,10 +98,9 @@ export const SectionTwo = () => {
                     alt="Imagem decorativa"
                     fill
                     placeholder="blur"
-                    className="rounded-b-2xl"
+                    className="rounded-b-2xl "
                     quality={80}
                     sizes="100vw"
-                    style={{ objectFit: "cover", objectPosition: "center" }}
                     loading="lazy"
                   />
                 </div>

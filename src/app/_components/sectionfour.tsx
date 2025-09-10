@@ -15,10 +15,9 @@ export const SectionFour = () => {
           alt="Fundo Mobile"
           fill
           placeholder="blur"
-          className="block sm:hidden"
+          className="block md:hidden object-cover object-top"
           quality={80}
           sizes="100vw"
-          style={{ objectFit: "cover", objectPosition: "top" }}
           loading="lazy"
         />
         <Image
@@ -26,10 +25,9 @@ export const SectionFour = () => {
           alt="Fundo Desktop"
           fill
           placeholder="blur"
-          className="hidden sm:block"
+          className="hidden md:block object-cover object-top"
           quality={80}
           sizes="(max-width: 640px) 100vw,(max-width: 768px) 80vw,(max-width: 1024px) 60vw,(max-width: 1280px) 50vw, 1280px"
-          style={{ objectFit: "cover", objectPosition: "center" }}
           loading="lazy"
         />
       </div>
@@ -57,13 +55,9 @@ export const SectionFour = () => {
                       alt="Imagem decorativa"
                       placeholder="blur"
                       fill
-                      className="rounded-l-2xl"
+                      className="rounded-l-2xl object-cover object-center"
                       sizes="100vh"
                       loading="lazy"
-                      style={{
-                        objectFit: "cover",
-                        objectPosition: "center",
-                      }}
                     />
                   </div>
                 </div>
@@ -91,12 +85,8 @@ export const SectionFour = () => {
                       alt="Imagem decorativa"
                       placeholder="blur"
                       fill
-                      className="rounded-l-2xl"
+                      className="rounded-l-2xl object-cover object-center"
                       sizes="100vw"
-                      style={{
-                        objectFit: "cover",
-                        objectPosition: "center",
-                      }}
                     />
                   </div>
                 </div>

@@ -21,10 +21,9 @@ export const Hero = () => {
           alt="Fundo Mobile"
           fill
           placeholder="blur"
-          className="block md:hidden"
+          className="block md:hidden object-cover object-top"
           quality={90}
           sizes="100vw"
-          style={{ objectFit: "cover", objectPosition: "top" }}
           priority
         />
 
@@ -33,10 +32,9 @@ export const Hero = () => {
           alt="Fundo Desktop"
           fill
           placeholder="blur"
-          className="hidden md:block"
-          quality={90}
+          className="hidden md:block object-cover object-top"
+          quality={100}
           sizes="(max-width: 640px) 100vw,(max-width: 768px) 80vw,(max-width: 1024px) 60vw,(max-width: 1280px) 50vw, 1280px"
-          style={{ objectFit: "cover", objectPosition: "top" }}
           priority
         />
       </div>
