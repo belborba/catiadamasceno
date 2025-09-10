@@ -22,10 +22,10 @@ export const Hero = () => {
           fill
           placeholder="blur"
           className="block md:hidden"
-          quality={80}
+          quality={100}
           sizes="100vw"
           style={{ objectFit: "cover", objectPosition: "top" }}
-          priority={true}
+          priority
         />
 
         <Image
@@ -35,9 +35,9 @@ export const Hero = () => {
           placeholder="blur"
           className="hidden md:block"
           quality={90}
-          sizes="(max-width: 640px) 100vw,(max-width: 768px) 80vw,(max-width: 1024px) 60vw,(max-width: 1280px) 50vw, 1280px"
+          sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 1280px"
           style={{ objectFit: "cover", objectPosition: "top" }}
-          priority={true}
+          priority
         />
       </div>
       <div className="w-full md:max-w-6xl">
