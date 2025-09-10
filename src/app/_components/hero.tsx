@@ -15,7 +15,7 @@ export const Hero = () => {
 
   return (
     <section className="w-full relative flex flex-col md:items-center md:justify-center h-[925px] sm:h-[700px] md:h-[700px] border-b-4 border-primary">
-      <div className="absolute inset-0 -z-10">
+      <div className="inset-0 -z-10">
         <Image
           src={heroMobile}
           alt="Fundo Mobile"
@@ -24,7 +24,7 @@ export const Hero = () => {
           className="block md:hidden object-cover object-top"
           quality={90}
           sizes="100vw"
-          priority
+          priority={true}
         />
 
         <Image
@@ -33,9 +33,9 @@ export const Hero = () => {
           fill
           placeholder="blur"
           className="hidden md:block object-cover object-top"
-          quality={100}
-          sizes="(max-width: 640px) 100vw,(max-width: 768px) 80vw,(max-width: 1024px) 60vw,(max-width: 1280px) 50vw, 1280px"
-          priority
+          quality={90}
+          sizes="100vw"
+          priority={true}
         />
       </div>
       <div className="w-full md:max-w-6xl">
