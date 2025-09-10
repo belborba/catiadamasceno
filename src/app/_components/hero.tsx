@@ -32,10 +32,9 @@ export const Hero = () => {
           src={heroDesktop}
           alt="Fundo Desktop"
           fill
-          placeholder="blur"
           className="hidden md:block"
           quality={90}
-          sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 1280px"
+          sizes="(max-width: 640px) 100vw,(max-width: 768px) 80vw,(max-width: 1024px) 60vw,(max-width: 1280px) 50vw, 1280px"
           style={{ objectFit: "cover", objectPosition: "top" }}
           priority
         />
