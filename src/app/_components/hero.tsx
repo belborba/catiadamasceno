@@ -14,7 +14,7 @@ export const Hero = () => {
   };
 
   return (
-    <section className="w-full relative flex flex-col md:items-center md:justify-center h-[925px] md:h-[700px] border-b-4 border-primary">
+    <section className="w-full relative flex flex-col md:items-center md:justify-center h-[925px] sm:h-[700px] md:h-[700px] border-b-4 border-primary">
       <div className="absolute inset-0 -z-10">
         <Image
           src={heroMobile}
@@ -37,22 +37,21 @@ export const Hero = () => {
           quality={80}
           sizes="(max-width: 640px) 100vw,(max-width: 768px) 80vw,(max-width: 1024px) 60vw,(max-width: 1280px) 50vw, 1280px"
           style={{ objectFit: "cover", objectPosition: "top" }}
-          priority
         />
       </div>
       <div className="w-full md:max-w-6xl">
         <div className="w-full md:w-[500px] flex flex-col gap-4 md:gap-6 p-6 md:p-0 items-center md:items-start text-center md:text-left">
-          <Logo className="text-[250px] h-20" />
+          <Logo className="text-[250px] h-20 text-white" />
           <h1 className="text-3xl block md:hidden">
             Meu Curso de Ginástica Íntima gratuito dia 13/08
           </h1>
-          <p className="md:text-2xl">
+          <p className="md:text-2xl text-white">
             Entrando no ritmo das Olimpíadas, eu vou realizar uma superaula
             on-line e gratuita, onde eu vou ensinar todos os exercícios do meu
             curso de Ginástica Íntima para todas as mulheres que se preocupam em
             desenvolver a própria intimidade.
           </p>
-          <p className="md:text-2xl hidden md:block">
+          <p className="md:text-2xl hidden md:block text-white">
             <span className="text-primary font-bold">
               Ao vivo, dia 13 de agosto, às 20h, horário de Brasília.
             </span>
@@ -75,7 +74,7 @@ export const Hero = () => {
               </button>
             </div>
           </form>
-          <p className="text-[12px] hidden md:block uppercase">
+          <p className="text-[12px] hidden md:block text-white uppercase">
             Não se preocupe, seus dados estão protegidos de acordo com a lei
             lgpd.
           </p>

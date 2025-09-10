@@ -57,7 +57,7 @@ export const SectionTwo = () => {
           <h2 className="text-primary relative z-10">
             O que você vai aprender nas Pompolimpíadas
           </h2>
-          <p className="relative z-10">
+          <p className="relative z-10 text-white">
             Participe da superaula gratuita de Ginástica Íntima no dia 13 de
             agosto, às 20h, e tenha acesso a todo o conteúdo do curso. Aprenda a
             dominar a arte do aperta e solta e conquiste o ouro em saúde íntima,
@@ -92,7 +92,7 @@ export const SectionTwo = () => {
                 <ArrowIcon className="text-[100px] h-[10px]" />
                 <div className="px-4 space-y-2 text-center">
                   <h3 className=" text-primary uppercase">{item.title}</h3>
-                  <p>{item.description}</p>
+                  <p className="text-white">{item.description}</p>
                 </div>
                 <div className="relative w-full h-14 rounded-b-2xl bg-white">
                   <Image

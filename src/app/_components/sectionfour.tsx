@@ -34,14 +34,14 @@ export const SectionFour = () => {
         />
       </div>
       <div className="w-full md:max-w-6xl flex flex-col items-center gap-6">
-        <h3 className="text-center md:w-3/4">
+        <h3 className="text-center md:w-3/4 text-white">
           Existem dois tipos de ppka, aquelas que dominam a modalidade do aperta
           e solta e as que não praticam nenhum exercício, ou seja, as
           sedentárias.
         </h3>
         <hr className="border-2 border-primary rounded-full w-10" />
         <div className="flex flex-wrap justify-center gap-6">
-          <h4 className="mt-2 px-4 py-2 rounded-full border-2 border-primary bg-neutral-100 text-secondary uppercase">
+          <h4 className="mt-2 px-4 py-2 rounded-full border-2 border-primary bg-neutral-100 text-secondary font-bold uppercase">
             ppk sedentária
           </h4>
           <ul className="flex flex-wrap justify-center gap-6">
@@ -75,7 +75,7 @@ export const SectionFour = () => {
           </ul>
         </div>
         <div className="flex flex-wrap justify-center gap-6">
-          <h4 className="px-4 py-2 rounded-full border-2 border-primary text-white uppercase">
+          <h4 className="px-4 py-2 rounded-full border-2 border-primary text-white font-bold uppercase">
             ppk atleta
           </h4>
           <ul className="flex flex-wrap justify-center gap-6">
