@@ -9,15 +9,15 @@
 
 ## Sobre o projeto
 
-Implementação do Projeto
-
 Na implementação deste projeto, algumas configurações e boas práticas foram aplicadas para garantir performance, responsividade e otimização para SEO.
 
 No CSS global, utilizei o Tailwind configurado de acordo com as especificidades do projeto, aproveitando seus utilitários responsivos para adaptar a página de forma eficiente a diferentes tamanhos de tela.
 
 No Next.js, configurei o next.config.js para garantir que o tratamento de imagens seja feito corretamente, habilitando formatos modernos como WebP e AVIF, sempre que o navegador for compatível. Além disso, utilizei o componente Image do Next para ter um controle maior sobre carregamento, qualidade e otimização das imagens.
 
-Para SEO (Search Engine Optimization), implementei ajustes dentro do layout.tsx. Foram adicionadas fontes locais ao projeto, eliminando a necessidade de requisições externas ao Google Fonts. Também configurei o objeto metadata do Next, incluindo título, descrição e um padrão de Open Graph, garantindo melhor exibição e indexação da página em mecanismos de busca e redes sociais.
+Para SEO (Search Engine Optimization), implementei ajustes dentro do layout.tsx. Foram adicionadas fontes locais ao projeto, eliminando a necessidade de requisições externas ao Google Fonts.
+
+Também configurei o objeto metadata do Next, incluindo título, descrição e um padrão de Open Graph, garantindo melhor exibição e indexação da página em mecanismos de busca e redes sociais.
 
 Essas escolhas técnicas têm como objetivo melhorar a performance geral, a experiência do usuário e a visibilidade da página.
 
