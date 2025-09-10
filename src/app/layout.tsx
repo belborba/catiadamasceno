@@ -3,14 +3,14 @@ import localFont from "next/font/local";
 import "./globals.css";
 
 const nunitoFont = localFont({
-  src: "/fonts/nunitosans.woff2",
+  src: "../fonts/nunitosans.woff2",
   variable: "--font-nunito",
   fallback: ["sans-serif"],
   display: "swap",
 });
 
 const parisFont = localFont({
-  src: "/fonts/paris2024.woff2",
+  src: "../fonts/paris2024.woff2",
   variable: "--font-title",
   fallback: ["sans-serif"],
   display: "swap",
