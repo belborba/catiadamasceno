@@ -45,7 +45,7 @@ export const SectionThree = () => {
               type="submit"
               className="absolute right-0 top-1/2 -translate-y-1/2 bg-secondary p-4 rounded-l-full cursor-pointer"
             >
-              <ButtonIcon className="text-[70px] h-[24px]" />
+              <ButtonIcon className="text-[70px] h-[24px] text-white" />
             </button>
           </div>
         </form>
